@@ -1121,6 +1121,7 @@ function touchNavigation() {
         activeSlideMedia = null,
         activeSlideDesc = null;
 
+    const body = document.body;
     let winWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     let winHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
     this.events['doctouchmove'] = addEvent('touchmove', {

@@ -1171,6 +1171,7 @@
             activeSlideMedia = null,
             activeSlideDesc = null;
 
+        var body = document.body;
         var winWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         var winHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
         this.events['doctouchmove'] = addEvent('touchmove', {
